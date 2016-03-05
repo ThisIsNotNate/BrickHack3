@@ -18,7 +18,7 @@ int main()
 		scanf_s("%d", &p2);
 
 		cont = -1;
-		if ((p1 == ROCK && p2 == ROCK) || (p1 == PAPER && p2 == PAPER) || (p1 == SCISSORS && p2 == SCISSORS))
+		if (p1 == p2)
 			cont = 1;
 		else if (p1 == ROCK && p2 == SCISSORS)
 			win = 1;
