@@ -15,7 +15,7 @@ namespace RockPaperScissors
 	public ref class MainPage sealed
 	{
 	public:
-		MainPage();
+		MainPage(); // dad
 
 	};
 }
