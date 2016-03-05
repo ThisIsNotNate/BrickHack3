@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+
 #define ROCK          1
 #define PAPER         2
 #define SCISSORS      3
@@ -33,6 +34,8 @@ int main()
 			win = 2;
 	}
 	printf("The winner is: Player %d", win);
+	printf("\nEnter a number to exit: ");
+	scanf_s("%d", &win);
 	return 0;
 }
 
