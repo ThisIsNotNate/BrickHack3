@@ -1,3 +1,4 @@
+import com.leapmotion.leap.*;
 
 public class HelloWorld {
 	public static void main(String[] args){
